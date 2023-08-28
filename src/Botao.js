@@ -4,7 +4,7 @@ import { TouchableHighlight, Text, StyleSheet, Dimensions } from "react-native";
 
 export default props => {
     return (
-        <TouchableHighlight onPress={() => {}} >
+        <TouchableHighlight onPress={props.onClick} >
             <Text style={props.operador ? style.botaoOperadores : style.botaoNumeros }>{props.valor}</Text>
         </TouchableHighlight>
     )

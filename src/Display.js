@@ -4,8 +4,7 @@ import { Text, StyleSheet } from "react-native";
 export default props => {
     return (
         <>
-        <Text style={style.historico}>259,04</Text>
-        <Text style={style.resultado}>259,04</Text>
+        <Text style={style.historico}>{props.resultado}</Text>
         </>
     )
 }
